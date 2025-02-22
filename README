@@ -1,0 +1,19 @@
+### Important runnables to setup enviornment:
+
+python3 -m pip install -r requirements.txt
+
+install python: brew install python
+
+install langchain: python3 -m pip install langchain openai python-dotenv requests
+
+python3 -m pip install langchain openai python-dotenv pypdf2 python-docx
+
+python3 -m pip install langchain_community
+
+python3 -m pip install flask flask-cors
+
+
+### Variables to setup .env:
+
+OPENAI_API_KEY=your_openai_key_here
+PYJOBS_API_KEY=your_pyjobs_key_here
